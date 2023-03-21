@@ -1,0 +1,198 @@
+/* home content */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.frame {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+header {
+  margin-top: 50px;
+  text-align: center;
+}
+header .logo {
+  width: 280px;
+}
+header ul {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  padding: auto;
+  list-style-type: none;
+}
+header ul li {
+  margin-right: 35px;
+  text-align: center;
+}
+header ul li a {
+  text-decoration: none;
+  color: #c8c8c8;
+}
+header ul li a:hover {
+  transition: 0.5s all;
+  color: black;
+}
+.dropdown {
+  display: none;
+}
+.circle img {
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 300px;
+  border-radius: 50%;
+}
+.shoprev {
+  background-color: #00000009;
+  margin-top: 20px;
+  padding-top: 1px;
+  padding-bottom: 50px;
+}
+.shoprev .paragraf1 {
+  font-size: 42.08px;
+  color: #333333;
+}
+.shoprev .paragraf2 {
+  font-size: 22px;
+  color: #c8c8c8;
+}
+.shoprev a {
+  text-decoration: none;
+  color: #584ae9;
+  box-shadow: 0px 0px 0px 2px #584ae9;
+  border-radius: 20px;
+  padding: 12.16px 23.2px;
+}
+.shoprev a:hover {
+  transition: 0.5s all ease;
+  color: black;
+  box-shadow: 0px 0px 0px 2px black;
+}
+.somestuff {
+  padding: 50px;
+  display: flex;
+  background-color: #333333;
+  justify-content: center;
+}
+.somestuff .column {
+  color: white;
+}
+.somestuff .column img {
+  width: 150px;
+}
+.column {
+  padding: 50px;
+  width: 300px;
+}
+.recentproducts pre {
+  color: #c8c8c8;
+}
+/* shipping content */
+.frame2 {
+  width: 100%;
+}
+.shippingcontent {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+.shippingcontent p {
+  font-size: 42.08px;
+  color: #333333;
+}
+.shippingtext {
+  color: #c8c8c8;
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.shippingtext b {
+  color: black;
+}
+.shippingrates {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  font-size: 30px;
+}
+.shippingtable {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.shippingtable td {
+  color: #c8c8c8;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+.shippingtable table thead {
+  text-align: center;
+}
+.shippingtable p {
+  color: #c8c8c8;
+}
+.shippingcustomTDF .shippiTDF {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  font-size: 25px;
+}
+.shippingcustomTDF .customtext {
+  color: #c8c8c8;
+  padding: 15px;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.shippingcustomTDF .customtext b {
+  color: black;
+}
+.policy {
+  font-size: 25px;
+  padding: 15px;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.policy .policytext {
+  color: #c8c8c8;
+  font-size: 16px;
+}
+.store {
+  text-align: left;
+  margin: auto;
+  margin-top: 70px;
+  width: 50%;
+}
+.sidestore p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.sidestore input {
+  width: 300px;
+  height: 35px;
+  border: 1px solid #c8c8c8;
+}
+.sidestore ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.sidestore ul li {
+  margin-bottom: 10px;
+}
+.sidestore ul li a {
+  color: #584ae9;
+  text-decoration: none;
+}
+.sidestore ul li img {
+  margin-top: 25px;
+}
